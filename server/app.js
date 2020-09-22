@@ -7,7 +7,7 @@ const cors= require('cors');
 const app = express();
 
 
-const db = 'mongodb://nandan:nandan123@ds011258.mlab.com:11258/gql-nandan';
+const db = 'mongodb+srv://nandan:nandan123@gql-nandan.wc2bg.mongodb.net/gql-nandan?retryWrites=true&w=majority';
 
 // Allow cross origin request
 app.use(cors());
